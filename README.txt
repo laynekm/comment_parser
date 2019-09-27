@@ -1,4 +1,4 @@
-This program determines the amount of lines, comments, and TODOs in a file, indepenednt of language.
+This program determines the amount of lines, comments, and TODOs in a file, independent of language.
 It makes sure to ignore "comments" that are actually in quotes, so only real comments are counted.
 
 INSTRUCTIONS
