@@ -15,6 +15,9 @@ For languages that only include multi line comments, set the start/end identifie
 IMPORTANT: Identifier arguments MUST be wrapped in single quotes (ex. '//'). This is due to Java 
 handling arguments like "/*" as commands themselves.
 
+EXAMPLE LAUNCH ARGUMENTS
+test_files/java_test.java '//' '/*' '*/'
+
 I figured it was better to allow the user to input the comment identifiers themselves rather than hardcoding 
 them into the app and choosing them based on the file extension.
 This makes the program more verbose since there's so many different languages out there.
